@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 firstFlippedCard.timer = setTimeout(() => {
                     firstFlippedCard.classList.remove("flipped");
                     flippedCards = [];
-                    firstFlippedCard = null;}, 750);
+                    firstFlippedCard = null;}, 1000);
             } else if (flippedCards.length === 2) {
                 clearTimeout(firstFlippedCard.timer);
                 checkMatch();
