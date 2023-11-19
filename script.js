@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             setTimeout(() => {
                 card1.classList.remove("flipped");
-                card2.classList.remove("flipped")}, 750)
+                card2.classList.remove("flipped")}, 600)
         }
 
         flippedCards = [];
